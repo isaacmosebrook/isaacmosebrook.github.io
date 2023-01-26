@@ -1,0 +1,17 @@
+/*	****************************************
+	Base styles
+	**************************************** */
+html, body {
+    margin: 0; /* typical - gets rid of the default margin on the BODY */
+    height: 100%; /* required - makes sections act like pages */
+}
+
+/*	****************************************
+	Long-scrolly sections
+	**************************************** */
+section {
+    min-height: 100%; /* required - makes the sections act like pages */
+    padding-top: 75px; /* how tall is the persistent nav bar at the top? */
+    padding-bottom: 25px; /* typical - keep content away from the next section */
+    text-align: center; /* typical for long scrolly pages */
+}
