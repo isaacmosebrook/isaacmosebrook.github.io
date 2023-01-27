@@ -2050,3 +2050,24 @@ $('#album29').on('shown.bs.modal', function(e) {
     ]
 });
 });
+
+$('#album30').on('shown.bs.modal', function(e) {
+    
+    var ap30 = new APlayer({
+    element: document.getElementById('player30'),
+    narrow: false,
+    autoplay: false,
+    showlrc: false,
+    mutex: true,
+    mode: 'order',
+    listmaxheight: '250px',   
+    music: [
+        {
+            title: 'Everything and More',
+            author: 'Eyesack Moseberg',
+            url: 'https://isaacmosebrook.s3.amazonaws.com/Everything+and+More/Eyesack+Moseberg+-+Everything+and+More+(feat.+Iain+Wright).mp3',
+            pic: 'https://isaacmosebrook.s3.amazonaws.com/Everything+and+More/Everything+and+More+Cover.jpg'
+        }
+    ]
+});
+});

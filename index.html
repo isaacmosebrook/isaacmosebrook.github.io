@@ -35,6 +35,42 @@ font-family: HelveticaNeue-
 </style>
   <!-- MODAL CONTENT -->
 
+  			<!-- Everything and More by Eyesack Moseberg -->
+           <div class="modal fade bs-example-modal-lg modal30" id="album30" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+           <div class="modal-dialog" role="document">
+              <div class="modal-content songArea">
+                <div class="modal-header songAreaTitle">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+           <h4 class="modal-title" id="gridSystemModalLabel">Everything and More by Eyesack Moseberg - 2022</h4>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-4">
+                        <img class="clickedAlbumArt" src="https://isaacmosebrook.s3.amazonaws.com/Everything+and+More/Everything+and+More+Cover.jpg" ></img>
+                    </div>
+                    <div class="col-md-4">
+                        <div id="player30" class="aplayer songPlaylist"></div>
+                    </div>
+                    <div class="col-md-4">
+                      <p>Just a good old fashioned song that didn't get onto an album</p>
+                      <p>Isaac Mosebrook - Everything Else</p>
+                      <p>Iain Wright - Vocal and Lyrics</p>
+                      <p>Josh Toth - Album Cover</p>
+
+                    </div>
+                  </div> <!--end row-->
+                </div>
+                <div class="modal-footer">
+                  <a href="https://open.spotify.com/album/0TQquKfKUZiwfCQAkeJsPs?si=NscySRhdQNWejsEjNFYelA"><img class="icon" src="icons/spotify.png"></img></a>
+                  <a href="https://music.apple.com/us/album/everything-and-more-feat-iain-wright-single/1600351526"><img class="icon" src="icons/appleMusic.png"></img></a>
+                  <a href="https://amazon.com/music/player/albums/B09NMRK652?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_1RH4arWXRfHk7npBemiPtBsKT"><img class="icon" src="icons/amazon.png"></img></a>
+                  <a href="https://syrupywallrecords.bandcamp.com/track/everything-and-more-feat-iain-wright"><img class="icon" src="icons/bandcamp.png"></img></a>
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
+
           <!-- The Wavering Path by Eyesack Moseberg -->
            <div class="modal fade bs-example-modal-lg modal29" id="album29" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
            <div class="modal-dialog" role="document">
@@ -1158,7 +1194,13 @@ font-family: HelveticaNeue-
 
         <div class="row" style="padding-top:50px;">
 
-
+			<div class="col-md-4 album">
+                  <img  data-toggle="modal" data-target=".modal30" class="albumArt" src="https://isaacmosebrook.s3.amazonaws.com/Everything+and+More/Everything+and+More+Cover.jpg" ></img>
+                  <div  data-toggle="modal" data-target=".modal30" class="albumText"> 
+                    <p>Everything and More</p>
+                    <p>Eyesack Moseberg</p>
+                  </div>  
+              </div>
             <div class="col-md-4 album">
                   <img  data-toggle="modal" data-target=".modal29" class="albumArt" src="https://isaacmosebrook.s3.amazonaws.com/the-wavering-path/the-wavering-path-cover.jpg" ></img>
                   <div  data-toggle="modal" data-target=".modal29" class="albumText"> 
@@ -1173,18 +1215,18 @@ font-family: HelveticaNeue-
                     <p>Eyesack Moseberg</p>
                   </div>  
               </div>
-            <div class="col-md-4 album">
+          
+        </div> <!--end row-->
+
+        <div class="row">
+
+        	<div class="col-md-4 album">
                   <img  data-toggle="modal" data-target=".modal27" class="albumArt" src="https://s3.amazonaws.com/isaacmosebrook/Selling+Lies/cover.jpg" ></img>
                   <div  data-toggle="modal" data-target=".modal27" class="albumText"> 
                     <p>Selling Lies</p>
                     <p>Eyesack Moseberg</p>
                   </div>  
               </div>
-          
-        </div> <!--end row-->
-
-        <div class="row">
-
               <div class="col-md-4 album">
                   <img  data-toggle="modal" data-target=".modal26" class="albumArt" src="https://s3.amazonaws.com/isaacmosebrook/It+Starts+Now/itStartsNowAlbumCoverCompressed.jpg" ></img>
                   <div  data-toggle="modal" data-target=".modal26" class="albumText"> 
@@ -1199,18 +1241,18 @@ font-family: HelveticaNeue-
                     <p>Barrel Cacti</p>
                   </div>  
               </div>
-              <div class="col-md-4 album">
+              
+        </div>
+
+        <div class="row">
+
+        	<div class="col-md-4 album">
                   <img  data-toggle="modal" data-target=".modal24" class="albumArt" src="https://s3.amazonaws.com/isaacmosebrook/The+Truth/thetruthart.jpg" ></img>
                   <div  data-toggle="modal" data-target=".modal24" class="albumText"> 
                     <p>The Truth</p>
                     <p>Bass Fish</p>
                   </div>  
               </div>
-              
-        </div>
-
-        <div class="row">
-
             <div class="col-md-4 album">
                   <img  data-toggle="modal" data-target=".modal23" class="albumArt" src="https://s3.amazonaws.com/isaacmosebrook/Upstate/upstatecover.jpg" ></img>
                   <div  data-toggle="modal" data-target=".modal23" class="albumText"> 
@@ -1225,18 +1267,18 @@ font-family: HelveticaNeue-
                     <p>Eyesack Moseberg</p>
                   </div>  
               </div>
-            <div class="col-md-4 album">
+              
+        </div>
+
+        <div class="row">
+
+        	<div class="col-md-4 album">
                   <img  data-toggle="modal" data-target=".modal21" class="albumArt" src="https://s3.amazonaws.com/isaacmosebrook/Common+Slack/commonslackcover.jpg" ></img>
                   <div  data-toggle="modal" data-target=".modal21" class="albumText"> 
                     <p>Common Slack</p>
                     <p>Matt Kerr and Eyesack Moseberg</p>
                   </div>  
               </div>
-              
-        </div>
-
-        <div class="row">
-
             <div class="col-md-4 album">
                   <img  data-toggle="modal" data-target=".modal1" class="albumArt" src="https://s3.amazonaws.com/isaacmosebrook/Punk/Punk+Cover.jpg" ></img>
                   <div  data-toggle="modal" data-target=".modal1" class="albumText"> 
@@ -1251,13 +1293,6 @@ font-family: HelveticaNeue-
                     <p>Barrel Cacti</p>
                   </div>  
               </div>
-            <div class="col-md-4 album">
-                  <img  data-toggle="modal" data-target=".modal3"class="albumArt" src="https://s3.amazonaws.com/isaacmosebrook/First+Thoughts/First+Thoughts+Cover.jpg"></img>
-                  <div data-toggle="modal" data-target=".modal3" class="albumText"> 
-                    <p>First Thoughts</p>
-                    <p>Matt Kerr</p>
-                  </div> 
-              </div>
 
         </div>
 
@@ -1270,6 +1305,13 @@ font-family: HelveticaNeue-
 
         <div class="row">
 
+        	<div class="col-md-4 album">
+                  <img  data-toggle="modal" data-target=".modal3"class="albumArt" src="https://s3.amazonaws.com/isaacmosebrook/First+Thoughts/First+Thoughts+Cover.jpg"></img>
+                  <div data-toggle="modal" data-target=".modal3" class="albumText"> 
+                    <p>First Thoughts</p>
+                    <p>Matt Kerr</p>
+                  </div> 
+              </div>
           <div class="col-md-4 album">
                 <img data-toggle="modal" data-target=".modal4" class="albumArt" src="https://s3.amazonaws.com/isaacmosebrook/The+Dankest+Memers+2/The+Dankest+2+Cover.jpg"></img>
                 <div data-toggle="modal" data-target=".modal4" class="albumText"> 
@@ -1284,18 +1326,18 @@ font-family: HelveticaNeue-
                   <p>Eyesack Moseberg</p>
                 </div> 
             </div>
-            <div class="col-md-4 album">
+            
+        </div>
+
+        <div class="row">
+
+        	<div class="col-md-4 album">
                 <img  data-toggle="modal" data-target=".modal6" class="albumArt" src="https://s3.amazonaws.com/isaacmosebrook/Chairvolution/Chairvolution+Cover.jpg"></img>
                 <div  data-toggle="modal" data-target=".modal6" class="albumText"> 
                     <p>Chairvolution</p>
                     <p>Bass Fish</p>
                 </div>
             </div>
-            
-        </div>
-
-        <div class="row">
-
             <div class="col-md-4 album">
               <img  data-toggle="modal" data-target=".modal8" class="albumArt" src="https://s3.amazonaws.com/isaacmosebrook/Score/Score+Cover.jpg"></img>
               <div  data-toggle="modal" data-target=".modal8" class="albumText"> 
@@ -1310,18 +1352,18 @@ font-family: HelveticaNeue-
                     <p>Platypus Torpedo</p>
                 </div>
             </div>
-            <div class="col-md-4 album">
-              <img  data-toggle="modal" data-target=".modal9" class="albumArt" src="https://s3.amazonaws.com/isaacmosebrook/Rabblement/Rabblement+Cover.jpg"></img>
-              <div  data-toggle="modal" data-target=".modal9" class="albumText"> 
-                  <p>Rabblement</p>
-                  <p>Eyesack Moseberg</p>
-              </div>
             
             
         </div>
 
         <div class = "row">
 
+        	<div class="col-md-4 album">
+              <img  data-toggle="modal" data-target=".modal9" class="albumArt" src="https://s3.amazonaws.com/isaacmosebrook/Rabblement/Rabblement+Cover.jpg"></img>
+              <div  data-toggle="modal" data-target=".modal9" class="albumText"> 
+                  <p>Rabblement</p>
+                  <p>Eyesack Moseberg</p>
+              </div>
           </div>
              <div class="col-md-4 album">
               <img  data-toggle="modal" data-target=".modal10"class="albumArt" src="https://s3.amazonaws.com/isaacmosebrook/The+Battle+of+the+Cactus+and+the+Lobster/Battle+of+Cactus+Cover.jpg"></img>
@@ -1337,18 +1379,20 @@ font-family: HelveticaNeue-
                   <p>GP Labs</p>
               </div>
             </div>
-            <div class="col-md-4 album">
-              <img  data-toggle="modal" data-target=".modal12" class="albumArt" src="https://s3.amazonaws.com/isaacmosebrook/cccc/CCCC+Cover.jpg"></img>
-              <div  data-toggle="modal" data-target=".modal12" class="albumText"> 
-                <p>Communicative Competence by Communicative Commonality</p>
-                <p>Fake Jam</p>
-              </div>
             
 
         </div>
 
          <div class = "row">
 
+
+            
+            <div class="col-md-4 album">
+              <img  data-toggle="modal" data-target=".modal12" class="albumArt" src="https://s3.amazonaws.com/isaacmosebrook/cccc/CCCC+Cover.jpg"></img>
+              <div  data-toggle="modal" data-target=".modal12" class="albumText"> 
+                <p>Communicative Competence by Communicative Commonality</p>
+                <p>Fake Jam</p>
+              </div>
             </div>
              <div class="col-md-4 album">
               <img  data-toggle="modal" data-target=".modal13" class="albumArt" src="https://s3.amazonaws.com/isaacmosebrook/The+First+Closet/The+First+Closet+Cover.jpg"></img>
