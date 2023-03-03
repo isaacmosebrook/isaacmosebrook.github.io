@@ -7,9 +7,9 @@
 	font-size: 50px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1500px) {
     .navbar-brand {
-      font-size: 30px;
+      font-size: 150%;
     }
 }
 
@@ -59,13 +59,11 @@
 	overflow: auto;
 }
 
-
 .album .albumText {
 position:relative;
-bottom:260px;
+bottom:100%;
 background-color: rgba(0,0,0,0.9);
 color: #ffffff;
-font-size: 30px;
 
 visibility:hidden;
 }
@@ -74,18 +72,16 @@ visibility:hidden;
   visibility:visible;
 }
 
-.albumText:hover {
-  visibility:visible;
 
-  cursor: pointer;
+.albumText {
+  margin-top: 0px;
 }
 
 .albumArt {
-	max-width: 350px;
+	max-width: 100%;
 	max-height: 350px;
 
     border-radius: 10px;
-    margin-bottom: 40px;
 }
 
 .clickedAlbumArt {
@@ -139,7 +135,11 @@ visibility:hidden;
     color: #ffffff;
  }
 
-  @media (max-width: 360px) {
+  @media screen and (min-width: 600px) {
+
+  .albumText {
+    font-size: 200%;
+  }
 
   .welcomeText{
     width: 100%;
@@ -148,7 +148,11 @@ visibility:hidden;
 
 }
 
- @media (max-width: 815px) {
+ @media screen and (max-width: 601px) {
+
+  .albumText {
+    font-size: 100%;
+  }
 
     .welcomeText{
       width: 100%;

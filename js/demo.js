@@ -2071,3 +2071,72 @@ $('#album30').on('shown.bs.modal', function(e) {
     ]
 });
 });
+
+$('#album31').on('shown.bs.modal', function(e) {
+    
+    var ap31 = new APlayer({
+    element: document.getElementById('player31'),
+    narrow: false,
+    autoplay: false,
+    showlrc: false,
+    mutex: true,
+    mode: 'order',
+    listmaxheight: '250px',   
+    music: [
+        {
+            title: 'Ransacked',
+            author: 'Eyesack Moseberg',
+            url: 'https://isaacmosebrook.s3.amazonaws.com/Hypno-Tigers!/Eyesack+Moseberg+-+Hypno-Tigers!+-+01+Ransacked.mp3',
+            pic: 'https://isaacmosebrook.s3.amazonaws.com/Hypno-Tigers!/hypno-tigers-cover-compressed.jpg'
+        },
+		{
+            title: 'Adonis (Feat. Trevor Silva)',
+            author: 'Eyesack Moseberg',
+            url: 'https://isaacmosebrook.s3.amazonaws.com/Hypno-Tigers!/Eyesack+Moseberg+-+Hypno-Tigers!+-+02+Adonis+(Feat.+Trevor+Silva).mp3',
+            pic: 'https://isaacmosebrook.s3.amazonaws.com/Hypno-Tigers!/hypno-tigers-cover-compressed.jpg'
+        },
+        {
+            title: 'Delusions',
+            author: 'Eyesack Moseberg',
+            url: 'https://isaacmosebrook.s3.amazonaws.com/Hypno-Tigers!/Eyesack+Moseberg+-+Hypno-Tigers!+-+03+Delusions.mp3',
+            pic: 'https://isaacmosebrook.s3.amazonaws.com/Hypno-Tigers!/hypno-tigers-cover-compressed.jpg'
+        },
+        {
+            title: 'The Cobra Maneuver',
+            author: 'Eyesack Moseberg',
+            url: 'https://isaacmosebrook.s3.amazonaws.com/Hypno-Tigers!/Eyesack+Moseberg+-+Hypno-Tigers!+-+04+The+Cobra+Maneuver.mp3',
+            pic: 'https://isaacmosebrook.s3.amazonaws.com/Hypno-Tigers!/hypno-tigers-cover-compressed.jpg'
+        },
+        {
+            title: 'Impossible',
+            author: 'Eyesack Moseberg',
+            url: 'https://isaacmosebrook.s3.amazonaws.com/Hypno-Tigers!/Eyesack+Moseberg+-+Hypno-Tigers!+-+05+Impossible.mp3',
+            pic: 'https://isaacmosebrook.s3.amazonaws.com/Hypno-Tigers!/hypno-tigers-cover-compressed.jpg'
+        },
+        {
+            title: 'Riptide',
+            author: 'Eyesack Moseberg',
+            url: 'https://isaacmosebrook.s3.amazonaws.com/Hypno-Tigers!/Eyesack+Moseberg+-+Hypno-Tigers!+-+06+Riptide.mp3',
+            pic: 'https://isaacmosebrook.s3.amazonaws.com/Hypno-Tigers!/hypno-tigers-cover-compressed.jpg'
+        },
+        {
+            title: 'The Contract',
+            author: 'Eyesack Moseberg',
+            url: 'https://isaacmosebrook.s3.amazonaws.com/Hypno-Tigers!/Eyesack+Moseberg+-+Hypno-Tigers!+-+07+The+Contract.mp3',
+            pic: 'https://isaacmosebrook.s3.amazonaws.com/Hypno-Tigers!/hypno-tigers-cover-compressed.jpg'
+        },
+        {
+            title: 'Quantum Conspiracy',
+            author: 'Eyesack Moseberg',
+            url: 'https://isaacmosebrook.s3.amazonaws.com/Hypno-Tigers!/Eyesack+Moseberg+-+Hypno-Tigers!+-+08+Quantum+Conspiracy.mp3',
+            pic: 'https://isaacmosebrook.s3.amazonaws.com/Hypno-Tigers!/hypno-tigers-cover-compressed.jpg'
+        },
+        {
+            title: 'Heavy',
+            author: 'Eyesack Moseberg',
+            url: 'https://isaacmosebrook.s3.amazonaws.com/Hypno-Tigers!/Eyesack+Moseberg+-+Hypno-Tigers!+-+09+Heavy.mp3',
+            pic: 'https://isaacmosebrook.s3.amazonaws.com/Hypno-Tigers!/hypno-tigers-cover-compressed.jpg'
+        }
+    ]
+});
+});
