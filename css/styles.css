@@ -2,7 +2,7 @@
 
 /*  ****************************************
   Navbar
-  **************************************** */
+  ****************************************
 .navbar-brand{
 	font-size: 50px;
 }
@@ -32,7 +32,7 @@
 	margin-bottom: 0px;
 	padding: 0;
 }
-
+*/
 /*  ****************************************
   Second
   **************************************** */
@@ -60,8 +60,6 @@
 }
 
 .album .albumText {
-position:relative;
-bottom:100%;
 background-color: rgba(0,0,0,0.9);
 color: #ffffff;
 
@@ -85,8 +83,8 @@ visibility:hidden;
 }
 
 .clickedAlbumArt {
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 100px;
+  max-height: 100px;
 }
  
 
@@ -114,8 +112,8 @@ visibility:hidden;
  }
 
  .footerText {
-    padding-top: 20px;
     padding-left: 10px;
+    font-size: 70%;
  }
 
  .welcomeText {
@@ -201,9 +199,10 @@ visibility:hidden;
   color: #404547;
 }
 
+/*
 body .modal {
     
-    /* must be half of the width, minus scrollbar on the left (30px) */
+    /* must be half of the width, minus scrollbar on the left (30px) 
     margin-left: -590px;
 }
 
@@ -230,10 +229,11 @@ body .modal {
     }
 
 }
-
+*/
 /*	****************************************
 	Bootstrap Navbar
 	**************************************** */
+/*
 .navbar-default {
   background-color: #ffffff;
   border-color: #146acc;
@@ -303,3 +303,4 @@ body .modal {
     background-color: #146acc;
   }
 }
+*/
