@@ -34,10 +34,10 @@
 }
 */
 /*  ****************************************
-  Second
+  Music
   **************************************** */
 
-#second{
+#music{
 	background-color: BLACK;
 }
 
@@ -45,9 +45,23 @@
   margin-bottom: 50px;
 }
 
+/*  ****************************************
+  Videos
+  **************************************** */
+
+#videos {
+  background-color: BLACK;
+  padding-bottom: 100px;
+}
+
 /*	****************************************
 	Modules (reusable classes)
 	**************************************** */
+.SectionHeader {
+  font-size: 500%;
+  color: rgb(182,182,182);
+}
+
 .containerSmall {
 	max-width: 600px;
 	margin: 0 auto;
